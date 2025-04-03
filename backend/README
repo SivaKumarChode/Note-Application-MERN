@@ -1,0 +1,18 @@
+note-app-backend/
+│── node_modules/
+│── config/
+│   ├── db.js         --> MongoDB connection
+│── models/
+│   ├── Note.js       --> Note Schema
+│   ├── User.js       --> User Schema
+│── routes/
+│   ├── noteRoutes.js --> Note CRUD routes
+│   ├── userRoutes.js --> Auth routes (Login/Register)
+│── middleware/
+│   ├── authMiddleware.js  --> JWT auth check
+│── controllers/
+│   ├── noteController.js  --> Note CRUD logic
+│   ├── userController.js  --> Auth logic
+│── .env
+│── server.js
+│── package.json
